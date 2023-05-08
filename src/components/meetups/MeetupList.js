@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './MeetupList.module.css';
 import MeetupItem from './MeetupItem';
-
+//context manage the state
 const MeetupList = (props) => {
   return (
     <ul className={classes.list}>
